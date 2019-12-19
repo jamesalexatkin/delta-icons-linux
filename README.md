@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/Delta-Icons/android/raw/master/delta-logo.png" alt="">
+	<img src="https://github.com/jamesalexatkin/delta-icons-linux/raw/master/delta-logo.png" alt="">
 </p>
 
 <h1 align="center" padding="100">Delta Icons</h1>
@@ -11,28 +11,21 @@
 
 * Move the `Delta` folder to `/home/.icons`.
 
-* Set `Appearances -> Icons` to `Delta` in the GNOME Tweak Tool.
+* Set the icon theme in one of the two following ways:
+	- Set `Appearances -> Icons` to `Delta` in the GNOME Tweak Tool, OR;
+	- Run `gsettings set org.gnome.desktop.interface icon-theme "Delta"`.
 
 ## Contributing
-In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
-- Vectors (SVG, EPS, PDF, ...) go to the `contributed-vectors` folder 
-	-  Please keep filenames in lowercase alphabet with underscores
-- 192 * 192 pixel PNG file `icon_name.png` goes to `app/src/main/res/drawable-nodpi`
-- Name of the icon in these files, in this format `<item drawable="icon_name" />`
-	- `app/src/main/assets/drawable.xml` 
-	- `app/src/main/res/xml/drawable.xml`
-- ComponentInfo has to be in the following files according to their format:
-	- `app/src/main/assets/appfilter.xml`
-	- `app/src/main/res/xml/appfilter.xml`
-	- `app/src/main/res/xml/appmap.xml`
-	- `app/src/main/res/xml/theme_resources.xml`
-- Give yourself an entry at the bottom of `app/src/main/res/xml/contributors.xml`
+* If you want to contribute to Delta by providing icons please do so by creating a SVG icon, cloning this repo and issuing a pull request.
+* A basic guide to creating icon themes can be found here: https://wiki.gnome.org/Attic/GnomeArt/Tutorials/IconThemes
+	- `index.theme` outlines the file structure and properties of the icons. If you are adding additional folders, make sure to reflect the changes in this file.
+* Place SVGs in the correct place in the file structure (e.g. application icons under `applications`, MIME type icons under `mimetypes`).
 
 ### Resources for Contributions
 The color palette
-![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/Palette.svg) (Right-Click &rarr; Save as)
+![Palette for Delta](https://github.com/jamesalexatkin/delta-icons-linux/raw/master/Palette.svg) (Right-Click &rarr; Save as)
 
 Icon template
-![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
+![Icon Template for Delta](https://github.com/jamesalexatkin/delta-icons-linux/raw/master/template.svg) (Right-Click &rarr; Save as)
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
