@@ -24,7 +24,7 @@ Directories=apps/scalable,devices/scalable,mimetypes/scalable
 
 [apps/scalable]
 Context=Applications
-Size=512
+Size=192
 MinSize=1
 MaxSize=512
 Type=Scalable
