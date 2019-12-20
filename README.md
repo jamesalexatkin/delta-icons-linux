@@ -20,6 +20,7 @@
 * A basic guide to creating icon themes can be found here: https://wiki.gnome.org/Attic/GnomeArt/Tutorials/IconThemes
 	- `index.theme` outlines the file structure and properties of the icons. If you are adding additional folders, make sure to reflect the changes in this file.
 * Place SVGs in the correct place in the file structure (e.g. application icons under `applications`, MIME type icons under `mimetypes`).
+* Give yourself an entry at the bottom of `Contributors.xml`.
 
 ### Resources for Contributions
 The color palette
